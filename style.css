@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    position: relative;
+    height: 50px;
+    align-items: center;
+}
+#navbar ul{
+    display: flex;
+    
+     
+
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    
+
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+    margin: 13px;
+}
+#navbar ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin: 10px;
+
+}
+#navbar ul li a:hover{
+    color: rgb(1, 15, 1);
+    background-color: rgb(25, 249, 89);
+
+}
+#home{
+    display: flex;
+    height: 555px;
+        
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 23px;
+    
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url('img6.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    
+}
+#home h1{
+    font-size: 3rem;
+    color:white;
+    text-align: center;
+    padding: 12px;
+}
+#home p{
+    font-size: 1.5rem;
+    color: rgb(2, 2, 26);
+    text-align: center;
+    padding: 2px;
+    font-family: 'BalooBhai2',Regular;
+}
+.btn{
+    padding: 14px 22px;
+    margin: 16px;
+    color: white;
+    background-color: rgb(46, 43, 43);
+    border: 2px solid orangered;
+    border-radius: 10px;
+    font
+}
+.btn:hover{
+    color: blue;
+    background-color : aqua;
+    cursor: pointer;
+    
+}
+
+#services h1{
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    height: 43px;
+    margin: 13px;
+    font-family: cursive;
+    
+}
+
+#s{
+    display: flex;
+    margin: 34px;
+    justify-content: center;
+    align-items: center;
+    
+}
+#s .box{
+    border: 2px solid black;
+    padding: 34px;
+    margin: 8px;
+    background-color: rgb(232, 243, 243);
+    border-radius: 12px;
+    
+}
+#s .box img{
+    height: 200px;
+    margin: auto;
+    display: block;
+    padding: 10px;
+}
+.h2{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#s .box p{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
